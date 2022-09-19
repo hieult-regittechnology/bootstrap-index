@@ -209,7 +209,7 @@ header {
                     }
                     button {
                         @include flex;
-                        text-align: none;
+                        align-items: flex-start;
                         background-color: $white;
                         color: $mainColor;
                         padding: 10px 15px;

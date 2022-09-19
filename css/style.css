@@ -308,7 +308,7 @@ header .container .row .pc-header .header-account .account-circle {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: none;
+  align-items: flex-start;
   background-color: #ffffff;
   color: #c40000;
   padding: 10px 15px;
