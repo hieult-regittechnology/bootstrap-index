@@ -175,7 +175,7 @@ header {
         }
         .post-item {
             border: 1px solid #cccccc;
-            border-radius: 8px;
+            border-radius: 10px;
             overflow-wrap: break-word;
             overflow: hidden;
             height: auto;
@@ -184,7 +184,6 @@ header {
                 width: 100%;
                 height: auto;
                 display: block;
-                border-radius: 8px 8px 0 0;
                 margin: 0 0 25px 0;
             }
             .post-content {
@@ -210,6 +209,7 @@ header {
                     }
                     button {
                         @include flex;
+                        text-align: none;
                         background-color: $white;
                         color: $mainColor;
                         padding: 10px 15px;
