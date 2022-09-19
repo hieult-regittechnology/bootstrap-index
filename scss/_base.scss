@@ -1,6 +1,8 @@
-
-$redMainColor: #c40000;
-$whiteMainColor: #FFFFFF;
+$mainColor: #c40000;
+$color-1: #ffffff;
+$color-2: #211e3b;
+$color-3: #000000;
+$color-4: #212121;
 
 @mixin mainFontAndColor($font-size, $font-weight, $color) {
     font-size: $font-size;
@@ -28,6 +30,6 @@ $whiteMainColor: #FFFFFF;
 
 @mixin mobile {
     @media screen and (max-width: 576px) {
-    @content;
+        @content;
     }
 }

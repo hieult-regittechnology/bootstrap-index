@@ -40,7 +40,7 @@ header {
 @media screen and (max-width: 576px) {
   header {
     padding: 10px 0;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 }
 header .container .row .mobile-header {
@@ -164,7 +164,7 @@ header .container .row .pc-header .header-menu button {
   font-style: normal;
   line-height: 21.72px;
   font-family: Noto Sans JP;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 3px;
 }
 header .container .row .pc-header .header-account {
@@ -298,7 +298,7 @@ header .container .row .pc-header .header-account .account-circle {
   color: #211e3b;
 }
 .detail-posts .container .post-item .post-content .post-detail button {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #c40000;
   padding: 10px 15px;
   border: 0.1px solid #e4e4e4;
@@ -313,10 +313,10 @@ header .container .row .pc-header .header-account .account-circle {
 }
 .detail-posts .container .post-item .post-content .post-detail button:hover {
   background-color: #c40000;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .detail-posts .container .post-item .post-content .post-detail button:hover .arrow {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .detail-posts .container .pagination-custom {
   margin: 0 0 90px 0;
@@ -358,14 +358,14 @@ header .container .row .pc-header .header-account .account-circle {
 }
 .detail-posts .container .pagination-custom ul .next {
   background-color: #e5e5e5;
-  border: 0px solid black;
+  border: 0px solid #000000;
   border-radius: 50%;
   width: 35px;
   height: 35px;
 }
 .detail-posts .container .pagination-custom ul button:hover {
   background-color: #c40000;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /*-----------------Footer---------------------------------*/
@@ -380,7 +380,7 @@ footer .content {
   font-style: normal;
   line-height: 21.72px;
   font-family: Noto Sans JP;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
