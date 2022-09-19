@@ -12,7 +12,7 @@ header {
     width: 100%;
     @include mobile {
         padding: 10px 0;
-        background-color: $color-1;
+        background-color: $white;
     }
     .container {
         .row {
@@ -25,7 +25,7 @@ header {
                     @include flex;
                 }
                 .logo-title {
-                    @include mainFontAndColor(16.5px, 700, $color-3);
+                    @include mainFontAndColor(16.5px, 700, $black);
                 }
                 .hamburger {
                     display: none;
@@ -69,7 +69,7 @@ header {
                     @include flex;
                     float: left;
                     .logo-title {
-                        @include mainFontAndColor(20px, 700, $color-3);
+                        @include mainFontAndColor(20px, 700, $black);
                     }
                 }
                 .search-form {
@@ -92,7 +92,7 @@ header {
                 }
                 .header-menu {
                     @include flex;
-                    @include mainFontAndColor(15px, 500, $color-4);
+                    @include mainFontAndColor(15px, 500, $color-2);
                     .header-menu-item {
                         padding: 15px;
                     }
@@ -100,14 +100,14 @@ header {
                         background-color: #770303;
                         height: 30px;
                         width: 50px;
-                        @include mainFontAndColor(15px, 500, $color-1);
+                        @include mainFontAndColor(15px, 500, $white);
                         border-radius: 3px;
                     }
                 }
                 .header-account {
                     float: right;
                     @include flex;
-                    @include mainFontAndColor(15px, 500, $color-4);
+                    @include mainFontAndColor(15px, 500, $color-2);
                     .nav-link {
                         padding: 15px;
                     }
@@ -140,7 +140,7 @@ header {
             max-width: 350px;
         }
         .title-post {
-            @include mainFontAndColor(50px, 700, $color-3);
+            @include mainFontAndColor(50px, 700, $black);
             @include mobile {
                 font-size: 30px;
             }
@@ -153,7 +153,7 @@ header {
         }
         .categories {
             float: right;
-            @include mainFontAndColor(15px, 500, $color-4);
+            @include mainFontAndColor(15px, 500, $color-2);
             padding: 10px 12px;
             width: 144px;
             height: auto;
@@ -186,7 +186,7 @@ header {
                     .post-publish {
                         display: flex;
                         align-items: center;
-                        @include postFontAndColor(17px, 400, 30px, $color-2);
+                        @include postFontAndColor(17px, 400, 30px, $color-1);
                         margin: 0 0 15px 0;
                         .icon {
                             margin: 0 5px 0 0;
@@ -197,13 +197,13 @@ header {
                         }
                     }
                     .title {
-                        @include postFontAndColor(20px, 700, 28px, $color-2);
+                        @include postFontAndColor(20px, 700, 28px, $color-1);
                     }
                     p {
-                        @include postFontAndColor(17px, 400, 25px, $color-2);
+                        @include postFontAndColor(17px, 400, 25px, $color-1);
                     }
                     button {
-                        background-color: $color-1;
+                        background-color: $white;
                         color: $mainColor;
                         padding: 10px 15px;
                         border: 0.1px solid #e4e4e4;
@@ -217,9 +217,9 @@ header {
                         }
                         &:hover {
                             background-color: $mainColor;
-                            color: $color-1;
+                            color: $white;
                             .arrow {
-                                color: $color-1;
+                                color: $white;
                             }
                         }
                     }
@@ -235,7 +235,7 @@ header {
                 list-style: none;
                 li {
                     @include flex;
-                    @include postFontAndColor(20px, 700, 28px, $color-2);
+                    @include postFontAndColor(20px, 700, 28px, $color-1);
                     border: 0px solid black;
                     border-radius: 50%;
                     margin: 0 4px;
@@ -255,7 +255,7 @@ header {
                 }
                 .next {
                     background-color: #e5e5e5;
-                    border: 0px solid $color-3;
+                    border: 0px solid $black;
                     border-radius: 50%;
                     width: 35px;
                     height: 35px;
@@ -263,7 +263,7 @@ header {
                 button {
                     &:hover {
                         background-color: $mainColor;
-                        color: $color-1;
+                        color: $white;
                     }
                 }
             }
@@ -272,10 +272,10 @@ header {
 }
 /*-----------------Footer---------------------------------*/
 footer {
-    background-color: $color-3;
+    background-color: $black;
     .content {
         text-align: center;
         padding: 40px;
-        @include mainFontAndColor(15px, 500, $color-1);
+        @include mainFontAndColor(15px, 500, $white);
     }
 }
