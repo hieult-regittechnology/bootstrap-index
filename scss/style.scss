@@ -73,6 +73,7 @@ header {
                     }
                 }
                 .search-form {
+                    margin: 0 0 0 -15px;
                     .form-group {
                         input {
                             border: 1px solid #d4d4d4;
@@ -110,7 +111,7 @@ header {
                     @include flex;
                     @include mainFontAndColor(15px, 500, $color-2);
                     .nav-link {
-                        padding: 15px;
+                        padding: 12px;
                     }
                     .account-circle {
                         font-weight: bold;
@@ -126,9 +127,9 @@ header {
     img {
         width: 100%;
         height: auto;
-        margin: 0 0 72.58px 0;
+        margin: 0 0 60.48px 0;
         @include mobile {
-            margin: 80px 0 72.58px 0;
+            margin: 80px 0 60.48px 0;
         }
     }
 }

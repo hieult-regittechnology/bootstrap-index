@@ -122,6 +122,9 @@ header .container .row .pc-header .header-logo .logo-title {
   font-family: Noto Sans JP;
   color: #000000;
 }
+header .container .row .pc-header .search-form {
+  margin: 0 0 0 -15px;
+}
 header .container .row .pc-header .search-form .form-group input {
   border: 1px solid #d4d4d4;
   width: 311px;
@@ -181,7 +184,7 @@ header .container .row .pc-header .header-account {
   color: #212121;
 }
 header .container .row .pc-header .header-account .nav-link {
-  padding: 15px;
+  padding: 12px;
 }
 header .container .row .pc-header .header-account .account-circle {
   font-weight: bold;
@@ -191,11 +194,11 @@ header .container .row .pc-header .header-account .account-circle {
 .slider img {
   width: 100%;
   height: auto;
-  margin: 0 0 72.58px 0;
+  margin: 0 0 60.48px 0;
 }
 @media screen and (max-width: 576px) {
   .slider img {
-    margin: 80px 0 72.58px 0;
+    margin: 80px 0 60.48px 0;
   }
 }
 
