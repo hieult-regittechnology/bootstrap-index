@@ -79,7 +79,7 @@ header {
                             width: 311px;
                             height: 37.5px;
                             border-radius: 4px;
-                            padding: 0 0 0 15px;
+                            padding: 0 30px 0 15px;
                         }
                         input::placeholder {
                             @include mainFontAndColor(15px, 500, #d4d1d4);
@@ -91,10 +91,11 @@ header {
                     }
                 }
                 .header-menu {
+                    margin: 0 0 0 35px;
                     @include flex;
                     @include mainFontAndColor(15px, 500, $color-2);
                     .header-menu-item {
-                        padding: 15px;
+                        padding:0 0 0 20px;
                     }
                     button {
                         background-color: #770303;
@@ -139,26 +140,30 @@ header {
         @include mobile {
             max-width: 350px;
         }
-        .title-post {
-            @include mainFontAndColor(50px, 700, $black);
-            @include mobile {
-                font-size: 30px;
-            }
-        }
-        .list-blog {
-            @include mobile {
+        .row {
+            .title-post {
                 @include flex;
                 justify-content: flex-start;
+                @include mainFontAndColor(50px, 700, $black);
+                @include mobile {
+                    font-size: 30px;
+                }
             }
-        }
-        .categories {
-            float: right;
-            @include mainFontAndColor(15px, 500, $color-2);
-            padding: 10px 12px;
-            width: 144px;
-            height: auto;
-            border: 1px solid #dedede;
-            border-radius: 4px;
+            .list-blog {
+                @include mobile {
+                    @include flex;
+                    justify-content: flex-start;
+                }
+            }
+            .categories {
+                float: right;
+                @include mainFontAndColor(15px, 500, $color-2);
+                padding: 10px 12px;
+                width: 144px;
+                height: auto;
+                border: 1px solid #dedede;
+                border-radius: 4px;
+            }
         }
     }
 }
@@ -203,6 +208,7 @@ header {
                         @include postFontAndColor(17px, 400, 25px, $color-1);
                     }
                     button {
+                        @include flex;
                         background-color: $white;
                         color: $mainColor;
                         padding: 10px 15px;
@@ -227,11 +233,13 @@ header {
             }
         }
         .pagination-custom {
-            margin: 0 0 90px 0;
+            @include flex;
+            margin: 0 0 80px 0;
             @include mobile {
                 margin: 0 -15px 30px -15px;
             }
             ul {
+                @include flex;
                 list-style: none;
                 li {
                     @include flex;

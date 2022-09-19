@@ -127,7 +127,7 @@ header .container .row .pc-header .search-form .form-group input {
   width: 311px;
   height: 37.5px;
   border-radius: 4px;
-  padding: 0 0 0 15px;
+  padding: 0 30px 0 15px;
 }
 header .container .row .pc-header .search-form .form-group input::placeholder {
   font-size: 15px;
@@ -142,6 +142,7 @@ header .container .row .pc-header .search-form .form-group .search-span {
   margin: 0 0 5px -30px;
 }
 header .container .row .pc-header .header-menu {
+  margin: 0 0 0 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +154,7 @@ header .container .row .pc-header .header-menu {
   color: #212121;
 }
 header .container .row .pc-header .header-menu .header-menu-item {
-  padding: 15px;
+  padding: 0 0 0 20px;
 }
 header .container .row .pc-header .header-menu button {
   background-color: #770303;
@@ -207,7 +208,11 @@ header .container .row .pc-header .header-account .account-circle {
     max-width: 350px;
   }
 }
-.title-posts .container .title-post {
+.title-posts .container .row .title-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
   font-size: 50px;
   font-weight: 700;
   font-style: normal;
@@ -216,19 +221,19 @@ header .container .row .pc-header .header-account .account-circle {
   color: #000000;
 }
 @media screen and (max-width: 576px) {
-  .title-posts .container .title-post {
+  .title-posts .container .row .title-post {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 576px) {
-  .title-posts .container .list-blog {
+  .title-posts .container .row .list-blog {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: flex-start;
   }
 }
-.title-posts .container .categories {
+.title-posts .container .row .categories {
   float: right;
   font-size: 15px;
   font-weight: 500;
@@ -298,6 +303,9 @@ header .container .row .pc-header .header-account .account-circle {
   color: #211e3b;
 }
 .detail-posts .container .post-item .post-content .post-detail button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ffffff;
   color: #c40000;
   padding: 10px 15px;
@@ -319,7 +327,10 @@ header .container .row .pc-header .header-account .account-circle {
   color: #ffffff;
 }
 .detail-posts .container .pagination-custom {
-  margin: 0 0 90px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 80px 0;
 }
 @media screen and (max-width: 576px) {
   .detail-posts .container .pagination-custom {
@@ -327,6 +338,9 @@ header .container .row .pc-header .header-account .account-circle {
   }
 }
 .detail-posts .container .pagination-custom ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
 }
 .detail-posts .container .pagination-custom ul li {
