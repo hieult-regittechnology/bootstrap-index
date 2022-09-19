@@ -134,7 +134,6 @@ header {
 
 /*-----------------Posts---------------------------------*/
 .title-posts {
-    @include flex;
     margin: 0 0 38px 0;
     .container {
         @include mobile {
@@ -143,7 +142,6 @@ header {
         .title-post {
             @include mainFontAndColor(50px, 700, #000000);
             @include mobile {
-                @include flex;
                 font-size: 30px;
             }
         }
@@ -205,7 +203,6 @@ header {
                         @include postFontAndColor(17px, 400, 25px, #211e3b);
                     }
                     button {
-                        @include flex;
                         background-color: $whiteMainColor;
                         color: #c40000;
                         padding: 10px 15px;
@@ -230,13 +227,11 @@ header {
             }
         }
         .pagination-custom {
-            @include flex;
             margin: 0 0 90px 0;
             @include mobile {
                 margin: 0 -15px 30px -15px;
             }
             ul {
-                @include flex;
                 list-style: none;
                 li {
                     @include flex;

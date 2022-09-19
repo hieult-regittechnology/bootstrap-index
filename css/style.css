@@ -200,9 +200,6 @@ header .container .row .pc-header .header-account .account-circle {
 
 /*-----------------Posts---------------------------------*/
 .title-posts {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0 0 38px 0;
 }
 @media screen and (max-width: 576px) {
@@ -220,9 +217,6 @@ header .container .row .pc-header .header-account .account-circle {
 }
 @media screen and (max-width: 576px) {
   .title-posts .container .title-post {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 30px;
   }
 }
@@ -304,9 +298,6 @@ header .container .row .pc-header .header-account .account-circle {
   color: #211e3b;
 }
 .detail-posts .container .post-item .post-content .post-detail button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #FFFFFF;
   color: #c40000;
   padding: 10px 15px;
@@ -328,9 +319,6 @@ header .container .row .pc-header .header-account .account-circle {
   color: #FFFFFF;
 }
 .detail-posts .container .pagination-custom {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0 0 90px 0;
 }
 @media screen and (max-width: 576px) {
@@ -339,9 +327,6 @@ header .container .row .pc-header .header-account .account-circle {
   }
 }
 .detail-posts .container .pagination-custom ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   list-style: none;
 }
 .detail-posts .container .pagination-custom ul li {
